@@ -12,7 +12,9 @@ const About = () => {
   return (
     <div className="about-container">
       <div className="row">
-        <div className="col-lg-6 home-left text-center text-lg-start">
+        <div className="col-lg-6 home-left text-center text-lg-start" data-aos="fade-down" 
+        data-aos-duration="500"
+        data-aos-easing="ease-in-sine">
           <div className="px-4 mx-auto">
             <h1>India’s Beloved</h1>
             <h1>Bike Taxi Service</h1>

@@ -11,7 +11,9 @@ const Careers = () => {
   return (
     <div className="careers-container">
       <div className="row">
-        <div className="col-lg-6 text-center text-lg-start">
+        <div className="col-lg-6 text-center text-lg-start" data-aos="fade-down" 
+        data-aos-duration="500"
+        data-aos-easing="ease-in-sine">
           <div className="px-4 career-left mx-auto my-lg-3 my-2">
             <h1 className="">Be a part of our team.</h1>
 
@@ -33,7 +35,7 @@ const Careers = () => {
       <div className="benifits-wrapper">
 
           {benifits.map((data,index)=>(
-            <div className="benifits" key={index}>
+            <div className="benifits" key={index} data-aos="zoom-in" data-aos-duration="1000">
             <img src={data.image} alt="" className="benifits-img" />
             <p className="benifits-text">{data.body}</p>
             </div>
