@@ -7,6 +7,8 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
+  const year = new Date().getFullYear()
+
     const nav = [ 
         {link : "Home",path:"/"},
         {link : "About Us",path:"/about"},
@@ -54,6 +56,10 @@ const Footer = () => {
            </div>
            </div>
         </div>
+        <hr />
+
+        <p className='text-center'>&copy; {year} developercris . All right reserved.</p>
+
     </footer>
   )
 }
