@@ -35,6 +35,7 @@
     background: #f9c935 url("../../Assets/rapido_group.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-blend-mode: multiply;
     color: white;
     text-align: center;

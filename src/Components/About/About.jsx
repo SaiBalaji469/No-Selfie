@@ -36,7 +36,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="col-lg-6 home-right d-none d-lg-block">
+        <div className="col-lg-6 home-right mt-5 mt-lg-0">
           <Temp1 img1={about1} img2={about2} />
         </div>
       </div>

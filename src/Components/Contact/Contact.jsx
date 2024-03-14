@@ -36,8 +36,6 @@ const Contact = () => {
         <div className="row">
           <div className="col-lg-6 px-md-5 px-lg-2">
             <p className="m-0 p-0">Find help for your queries here :</p>
-            <span className="err-text">Fill the details</span>
-
             <form action="" onSubmit={handleSubmit}>
               {inputs.map((input) => (
                 <div className="input-group" key={input.name}>
