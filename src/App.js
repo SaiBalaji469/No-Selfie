@@ -11,10 +11,12 @@ import Safety from './Components/Safety/Safety'
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 function App() {
-  const navigate = useNavigate()
 
   useEffect(()=>{
+    
     const handleNavigation = () => {
+      const navigate = useNavigate()
+
       navigate('/')
     }
    handleNavigation();  
