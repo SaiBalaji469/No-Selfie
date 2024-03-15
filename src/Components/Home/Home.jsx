@@ -82,26 +82,26 @@ const Home = () => {
           </p>
         </div>
         <div className="container-2">
-          <div className="box-1" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="500">
+          <div className="box-1" data-aos="zoom-out" data-aos-duration="1000">
           <div className="box">
             <img src={presence1} alt="presence-img" className="presence-img" />
             <bold>25 M</bold>
             <p>Downloads</p>
           </div>
           </div>
-          <div className="box-1" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="500">
+          <div className="box-1" data-aos="zoom-out" data-aos-duration="1000" >
           <div className="box">
           <img src={presence2} alt="presence-img" className="presence-img" />
             <bold>100 +</bold>
             <p>Cities</p>
           </div>
-          </div> <div className="box-1" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="500">
+          </div> <div className="box-1" data-aos="zoom-out" data-aos-duration="1000" >
           <div className="box">
           <img src={presence3} alt="presence-img" className="presence-img" />
             <bold>1 M+</bold>
             <p>Captains</p>
           </div>
-          </div> <div className="box-1" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="500">
+          </div> <div className="box-1" data-aos="zoom-out" data-aos-duration="1000">
           <div className="box">
           <img src={presence4} alt="presence-img" className="presence-img" />
             <bold>10 M+</bold>
