@@ -1,6 +1,4 @@
 import './App.css';
-import {useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { DataProvider } from './Context/Context';
 import Navbar from './Components/Navbar/Navbar';
 import {Routes,Route} from 'react-router-dom'
@@ -11,16 +9,6 @@ import Safety from './Components/Safety/Safety'
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 function App() {
-
-  useEffect(()=>{
-    
-    const handleNavigation = () => {
-      const navigate = useNavigate()
-
-      navigate('/')
-    }
-   handleNavigation();  
- },[])
 
  return(
   <div>

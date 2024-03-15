@@ -2,7 +2,7 @@ import {createContext, useState } from "react";
 const DataContext = createContext(null);
 
 export const DataProvider = ({children}) => {
-  const [active,setActive] = useState("Home")
+  const [active,setActive] = useState(localStorage.getItem("nav"))
   
       const [toggleActive,setToggleActive] = useState("Customers")
       const [toggleActive1,setToggleActive1] = useState("Customers")
@@ -75,7 +75,7 @@ export const DataProvider = ({children}) => {
 
      return(
         <DataContext.Provider value={{
-          active , setActive,toggleActive,setToggleActive,toggleActive1,setToggleActive1,safetyNav,setSafetyNav,handleChange,handleSubmit,formData,elementError
+          active,setActive,toggleActive,setToggleActive,toggleActive1,setToggleActive1,safetyNav,setSafetyNav,handleChange,handleSubmit,formData,elementError
         }}>
             {children}
         </DataContext.Provider>

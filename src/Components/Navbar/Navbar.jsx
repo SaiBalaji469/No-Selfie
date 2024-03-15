@@ -1,4 +1,4 @@
-import React, { useContext,useState } from 'react'
+import React, { useContext,useEffect,useState } from 'react'
 import {Link} from 'react-router-dom'
 import './navbar.css'
 import logo from '../../Assets/logo.svg'
@@ -22,6 +22,11 @@ const handleNavigation = (nav) => {
     setActive(nav)
     handleClose();
 }
+
+useEffect(()=>{
+  localStorage.setItem("nav",active)
+},[active])
+
   return (
     <div>
         <div className="nav-container">
