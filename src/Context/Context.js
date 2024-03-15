@@ -4,10 +4,6 @@ const DataContext = createContext(null);
 
 export const DataProvider = ({children}) => {
   const [active,setActive] = useState("Home")
-  const navigate = useNavigate()
-  useEffect(()=>{
-    navigate('/')
- },[])
   
       const [toggleActive,setToggleActive] = useState("Customers")
       const [toggleActive1,setToggleActive1] = useState("Customers")

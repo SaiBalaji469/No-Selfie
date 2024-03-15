@@ -1,7 +1,6 @@
-import { useContext,createContext, useState} from 'react';
 import './App.css';
-import logo from  './Assets/logo.svg'
-// import Header  from './Components/Header/Header'
+import {useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { DataProvider } from './Context/Context';
 import Navbar from './Components/Navbar/Navbar';
 import {Routes,Route} from 'react-router-dom'
@@ -12,6 +11,15 @@ import Safety from './Components/Safety/Safety'
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 function App() {
+  const navigate = useNavigate()
+
+  useEffect(()=>{
+    const handleNavigation = () => {
+      navigate('/')
+    }
+   handleNavigation();  
+ },[])
+
  return(
   <div>
    <DataProvider>
