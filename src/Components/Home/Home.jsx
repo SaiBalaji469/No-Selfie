@@ -46,12 +46,6 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        {/* <div className="col-lg-7 home-right d-none d-lg-block" data-aos="fade-left" 
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-sine">
-          <div className="img-background" ></div>
-           <img src={bike} alt="bikeimg"  className="bike-img"/>
-        </div> */}
       </div>
       <div className="safety-img-container">
         <img src={safetyOverviewImage} alt="safety-img" className="img-fluid" />
