@@ -5,6 +5,7 @@
     min-height: 200vh;
     overflow: hidden;
 }
+
 .home-left{
     display: flex;
     justify-content: center;
@@ -40,30 +41,31 @@ border-radius:30px 30px 0px 30px;
 .home-right{
     position: relative;
 }
+.background_image {
+    background-color: #f9c935;
+    width: 900px;
+    height: 500px;
+    border-radius: 350px;
+    top: 20px;
+    position: absolute;
+    right: -10px;
+    rotate: -45deg;
+    overflow: hidden;
+    z-index: -1;
+    transform: translatex(250px);
+}
+.page_one_image img {
+    height: 550px;
+    rotate: 45deg;
+    margin-top: 0px;
+    margin-left: -180px;
+}
 
-.img-background{
-    width: 750px;
-    height: 600px;
-    background-color:#f9c935;
-    transform: rotate(-40deg);
-    border-radius:50% 0 0 50% ;
-    position: absolute;
-    left: 10px;
-    top: -150px;
-    z-index: 1;
-}
-.bike-img{
-    z-index: 1;
-    width: 101%;
-    position: absolute;
-    left: -80px;
-    top: -10px;
-}
 .safety-img-container{
     max-width: 1000px;
     width: 100%;
     margin: 0px auto;
-    margin-top: 125px;
+    margin-top: 80px;
     min-height: 5px;
 }
 .bike-img-mobile{

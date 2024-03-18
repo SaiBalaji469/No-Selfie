@@ -22,7 +22,7 @@ const Home = () => {
   const {toggleActive1,setToggleActive1} = useContext(DataContext)
   return (
     <div className="home-container">
-      <div className="row">
+      <div className="row" style={{height:"500px"}}>
         <div className="col-lg-5 home-left text-center text-lg-start" data-aos="fade-down" 
         data-aos-duration="500"
         data-aos-easing="ease-in-sine">
@@ -39,12 +39,19 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-7 home-right d-none d-lg-block" data-aos="fade-left" 
+        <div  className="col-lg-7 home-right d-none d-lg-block">
+        <div class="background_image ">
+                <div class="page_one_image">
+                    <img src={bike} alt="bike-img" />
+                </div>
+            </div>
+        </div>
+        {/* <div className="col-lg-7 home-right d-none d-lg-block" data-aos="fade-left" 
         data-aos-duration="1000"
         data-aos-easing="ease-in-sine">
           <div className="img-background" ></div>
            <img src={bike} alt="bikeimg"  className="bike-img"/>
-        </div>
+        </div> */}
       </div>
       <div className="safety-img-container">
         <img src={safetyOverviewImage} alt="safety-img" className="img-fluid" />
