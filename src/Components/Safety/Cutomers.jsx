@@ -8,16 +8,16 @@ const Cutomers = () => {
     <div>
 
         <div className="safety-img-container">
-        <img src={customerSafety} alt="safety-img" className="img-fluid" />
+        <img src={customerSafety} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
       <div className="safety-img-container">
-        <img src={capVerification} alt="safety-img" className="img-fluid" />
+        <img src={capVerification} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
       <div className="safety-img-container">
-        <img src={safetyFeatures} alt="safety-img" className="img-fluid" />
+        <img src={safetyFeatures} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
       <div className="safety-img-container">
-        <img src={safetyForward} alt="safety-img" className="img-fluid" />
+        <img src={safetyForward} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
     </div>
   )

@@ -5,16 +5,17 @@ import about2 from "../../Assets/about_us_2.png";
 import pos1 from "../../Assets/rishi.png";
 import pos3 from "../../Assets/aravind.png";
 import pos2 from "../../Assets/pavan.png";
-
 import Temp1 from "../Home/Temp1";
+import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
     <div className="about-container">
       <div className="row">
-        <div className="col-lg-6 home-left text-center text-lg-start" data-aos="fade-down" 
-        data-aos-duration="500"
-        data-aos-easing="ease-in-sine">
+        <div
+          className="col-lg-6 home-left text-center text-lg-start"
+        
+        >
           <div className="px-4 mx-auto">
             <h1>India’s Beloved</h1>
             <h1>Bike Taxi Service</h1>
@@ -59,7 +60,7 @@ const About = () => {
             <div className="col-lg-4 text-center">
               <div className="about-design">
                 <div className="about-img">
-                  <img src={pos1} alt="founder-img" className="img-fluid" />
+                  <img src={pos1} alt="founder-img" className="img-fluid" loading="lazy" />
                 </div>
               </div>
               <span className="about-name">Rishikesh S R</span>
@@ -69,7 +70,7 @@ const About = () => {
             <div className="col-lg-4 text-center">
               <div className="about-design">
                 <div className="about-img">
-                  <img src={pos2} alt="founder-img" className="img-fluid" />
+                  <img src={pos2} alt="founder-img" className="img-fluid" loading="lazy" />
                 </div>
               </div>
               <span className="about-name">Pavan Guntupalli</span>
@@ -79,7 +80,7 @@ const About = () => {
             <div className="col-lg-4 text-center">
               <div className="about-design ">
                 <div className="about-img">
-                  <img src={pos3} alt="founder-img" className="img-fluid" />
+                  <img src={pos3} alt="founder-img" className="img-fluid" loading="lazy" />
                 </div>
               </div>
               <span className="about-name">Aravind Sanka</span>
@@ -91,10 +92,14 @@ const About = () => {
       </div>
 
       <div className="rapido-team py-5 ">
-         <h1>Jobs @ Rapido</h1>
-         <p>Join us in exploring a world of endless opportunities. Let’s find a spot for you.</p>
-         <button className="work-btn">Work with us</button>
+        <h1>Jobs @ Rapido</h1>
+        <p>
+          Join us in exploring a world of endless opportunities. Let’s find a
+          spot for you.
+        </p>
+        <button className="work-btn">Work with us</button>
       </div>
+      <Footer />
     </div>
   );
 };

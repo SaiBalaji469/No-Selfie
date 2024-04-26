@@ -57,7 +57,7 @@ const Slider2 = () => {
        {careerCarousal.map((carousal,index)=>(
         <div className="slider2" key={index} >
         <div className="slider-img-container">
-   <img src={carousal} alt="carousal-img" className='w-100 h-100' />
+   <img src={carousal} alt="carousal-img" className='w-100 h-100' loading="lazy" />
         </div>
        </div>
        ))}

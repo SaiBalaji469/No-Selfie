@@ -1,13 +1,22 @@
+import React,{Suspense} from 'react'
 import './App.css';
 import { DataProvider } from './Context/Context';
 import Navbar from './Components/Navbar/Navbar';
 import {Routes,Route} from 'react-router-dom'
-import Home from './Components/Home/Home';
-import About from './Components/About/About';
-import Careers from './Components/Carrers/Careers';
-import Safety from './Components/Safety/Safety'
-import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer/Footer';
+import ClipLoader from "react-spinners/ClipLoader";
+
+const Home = React.lazy(()=> import('./Components/Home/Home')) ;
+const About = React.lazy(()=> import('./Components/About/About')) ;
+const Careers = React.lazy(()=> import('./Components/Carrers/Careers'))
+const Safety = React.lazy(()=> import('./Components/Safety/Safety')) ;
+const Contact = React.lazy(()=> import('./Components/Contact/Contact')) ;
+
+// const override: CSSProperties = {
+//   display: "block",
+//   margin: "0 auto",
+//   borderColor: "red",
+// };  
+
 function App() {
 
  return(
@@ -15,13 +24,33 @@ function App() {
    <DataProvider>
      <Navbar/>
      <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/safety" element={<Safety />}/>
-      <Route path="/careers" element={<Careers />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/" element={<Suspense fallback={<div className='suspense'> <ClipLoader
+        color={"yellow"}
+    
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      /></div>}> <Home /></Suspense>} />
+      <Route path="/about" element={<Suspense fallback={<div className='suspense'> <ClipLoader
+        color={"yellow"}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      /></div>}><About /></Suspense>} />
+      <Route path="/safety" element={<Suspense fallback={<div className='suspense'> <ClipLoader
+        color={"yellow"}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      /></div>}> <Safety /></Suspense>} />
+      <Route path="/careers" element={<Suspense fallback={<div className='suspense'> <ClipLoader
+        color={"yellow"}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      /></div>}> <Careers /></Suspense>} />
+      <Route path="/contact" element={<Suspense fallback={<div className='suspense'> <ClipLoader
+        color={"yellow"}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      /></div>}> <Contact /></Suspense>} />
      </Routes>
-     <Footer />
    </DataProvider>
   </div>
  )

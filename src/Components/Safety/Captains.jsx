@@ -6,10 +6,10 @@ const Captains = () => {
   return (
     <div>
           <div className="safety-img-container">
-        <img src={captainSafety} alt="safety-img" className="img-fluid" />
+        <img src={captainSafety} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
          <div className="safety-img-container mb-4">
-        <img src={safetyFeatures} alt="safety-img" className="img-fluid" />
+        <img src={safetyFeatures} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
     </div>
   )

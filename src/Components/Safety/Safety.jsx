@@ -4,6 +4,7 @@ import DataContext from '../../Context/Context';
 import Overview from './Overview';
 import Cutomers from './Cutomers';
 import Captains from './Captains';
+import Footer from "../Footer/Footer";
 
 const Safety = () => {
   const navs = ["Overview","Customers","Captains"];
@@ -21,7 +22,7 @@ const Safety = () => {
             (safetyNav === "Overview") ? (<Overview />) : (safetyNav === "Customers") ? (<Cutomers />) : (<Captains />)
            }
       </div>
-      
+      <Footer />
     </div>
   )
 }

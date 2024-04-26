@@ -16,16 +16,15 @@ import Desc from "../Toggle/Desc";
 import { customerDesc , captainDesc ,homeFeedback , feedCaptains} from "../../Assets/Data";
 import Temp1 from "./Temp1";
 import Slider1 from "../Slider/Slider";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const {toggleActive,setToggleActive} = useContext(DataContext)
   const {toggleActive1,setToggleActive1} = useContext(DataContext)
   return (
     <div className="home-container">
-      <div className="row" style={{height:"500px"}}>
-        <div className="col-lg-5 home-left text-center text-lg-start" data-aos="fade-down" 
-        data-aos-duration="500"
-        data-aos-easing="ease-in-sine">
+      <div className="row home-row" >
+        <div className="col-lg-5 home-left text-center text-lg-start" >
           <div className="px-4">
             <h1>India’s largest bike taxi service</h1>
             <p>
@@ -39,31 +38,26 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div  className="col-lg-7 home-right d-none d-lg-block"  data-aos="fade-left" 
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-sine">
+        <div  className="col-lg-7 home-right d-none d-lg-block"  >
         <div class="background_image ">
                 <div class="page_one_image">
-                    <img src={bike} alt="bike-img" />
+                    <img src={bike} alt="bike-img" loading="lazy" />
                 </div>
             </div>
         </div>
-        {/* <div className="col-lg-7 home-right d-none d-lg-block">
-          <div className="img-background" ></div>
-           <img src={bike} alt="bikeimg"  className="bike-img"/>
-        </div> */}
+   
       </div>
       <div className="safety-img-container">
-        <img src={safetyOverviewImage} alt="safety-img" className="img-fluid" />
+        <img src={safetyOverviewImage} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
       <div className="bike-img-mobile d-lg-none">
-        <img src={bike} alt="bikeimg" className="img-fluid" />
+        <img src={bike} alt="bikeimg" className="img-fluid" loading="lazy" />
       </div>
       <div className="row know-us-container">
         <div className="col-lg-6 order-2 order-lg-1 ">
           <Temp1 img1={whoWe1} img2={whoWe2}/>
         </div>
-        <div className="col-lg-6 order-1 order-lg-2 text-center text-lg-start py-3 py-lg-0 " data-aos="fade-down" data-aos-duration="1500" data-aos-offset="500">
+        <div className="col-lg-6 order-1 order-lg-2 text-center text-lg-start py-3 py-lg-0 ">
           <div className="d-flex flex-column align-items-center align-items-lg-start">
             <h2>Know Us Better</h2>
             <span className="head-line"></span>
@@ -73,7 +67,7 @@ const Home = () => {
             Rapido is here to revolutionize intra-city travel as we bring you
             redefined comfort & convenience with our disruptive service model.
           </p>
-          <button className="read-more-btn" data-aos="zoom-in" data-aos-duration="1000">Read more here</button>
+          <button className="read-more-btn" >Read more here</button>
         </div>
       </div>
 
@@ -89,26 +83,26 @@ const Home = () => {
           </p>
         </div>
         <div className="container-2">
-          <div className="box-1" data-aos="zoom-out" data-aos-duration="1000">
+          <div className="box-1" >
           <div className="box">
-            <img src={presence1} alt="presence-img" className="presence-img" />
+            <img src={presence1} alt="presence-img" className="presence-img" loading="lazy" />
             <bold>25 M</bold>
             <p>Downloads</p>
           </div>
           </div>
-          <div className="box-1" data-aos="zoom-out" data-aos-duration="1000" >
+          <div className="box-1"  >
           <div className="box">
           <img src={presence2} alt="presence-img" className="presence-img" />
             <bold>100 +</bold>
             <p>Cities</p>
           </div>
-          </div> <div className="box-1" data-aos="zoom-out" data-aos-duration="1000" >
+          </div> <div className="box-1" >
           <div className="box">
           <img src={presence3} alt="presence-img" className="presence-img" />
             <bold>1 M+</bold>
             <p>Captains</p>
           </div>
-          </div> <div className="box-1" data-aos="zoom-out" data-aos-duration="1000">
+          </div> <div className="box-1" >
           <div className="box">
           <img src={presence4} alt="presence-img" className="presence-img" />
             <bold>10 M+</bold>
@@ -143,7 +137,7 @@ feedback={(toggleActive1 === "Customers") ? homeFeedback : feedCaptains}
       </div>
       <div className="row know-us-container">
     
-        <div className="col-lg-6 text-center  py-3 py-lg-0 "   data-aos="fade-down" data-aos-duration="1000">
+        <div className="col-lg-6 text-center  py-3 py-lg-0 " >
           <div 
           className="d-inline-flex flex-column align-items-center align-items-lg-start"
           >
@@ -159,6 +153,7 @@ feedback={(toggleActive1 === "Customers") ? homeFeedback : feedCaptains}
           <Temp1 img1={business1} img2={business2}/>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

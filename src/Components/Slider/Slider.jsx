@@ -59,7 +59,7 @@ const Slider1 = ({feedback}) => {
             <div className="col-md-3">
                 <div className="slider-design">
                      <div className="slider-img">
-                     <img src={feed.image} alt="cutomer-img"  className='img-fluid w-100 h-100'/>
+                     <img src={feed.image} alt="cutomer-img"  className='img-fluid w-100 h-100' loading="lazy" />
                      </div>
                 </div>
             </div>

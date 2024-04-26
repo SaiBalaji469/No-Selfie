@@ -9,7 +9,7 @@ const Overview = () => {
   return (
     <div>
         <div className="safety-img-container">
-        <img src={safetyOverviewImage} alt="safety-img" className="img-fluid" />
+        <img src={safetyOverviewImage} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
      <div className="row">
         <div className="col">
@@ -19,17 +19,17 @@ const Overview = () => {
      </div>
       <div className="row">
         <div className="col">
-            <img src={coverCustomer} alt="coverCustomer"  className='img-fluid'/>
+            <img src={coverCustomer} alt="coverCustomer"  className='img-fluid' loading="lazy" />
         </div>
         <div className="col">
-        <img src={coverCaptain} alt="coverCustomer"  className='img-fluid'/>
+        <img src={coverCaptain} alt="coverCustomer"  className='img-fluid' loading="lazy" />
         </div>
       </div>
       <div className="safety-img-container">
-        <img src={safetyFeatures} alt="safety-img" className="img-fluid" />
+        <img src={safetyFeatures} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
       <div className="safety-img-container">
-        <img src={safetyForward} alt="safety-img" className="img-fluid" />
+        <img src={safetyForward} alt="safety-img" className="img-fluid" loading="lazy" />
       </div>
     </div>
   )
