@@ -25,28 +25,28 @@ function App() {
      <Navbar/>
      <Routes>
       <Route path="/" element={<Suspense fallback={<div className='suspense'> <ClipLoader
-        color={"yellow"}
+        color={"#f9c935"}
     
         aria-label="Loading Spinner"
         data-testid="loader"
       /></div>}> <Home /></Suspense>} />
       <Route path="/about" element={<Suspense fallback={<div className='suspense'> <ClipLoader
-        color={"yellow"}
+        color={"#f9c935"}
         aria-label="Loading Spinner"
         data-testid="loader"
       /></div>}><About /></Suspense>} />
       <Route path="/safety" element={<Suspense fallback={<div className='suspense'> <ClipLoader
-        color={"yellow"}
+        color={"#f9c935"}
         aria-label="Loading Spinner"
         data-testid="loader"
       /></div>}> <Safety /></Suspense>} />
       <Route path="/careers" element={<Suspense fallback={<div className='suspense'> <ClipLoader
-        color={"yellow"}
+        color={"#f9c935"}
         aria-label="Loading Spinner"
         data-testid="loader"
       /></div>}> <Careers /></Suspense>} />
       <Route path="/contact" element={<Suspense fallback={<div className='suspense'> <ClipLoader
-        color={"yellow"}
+        color={"#f9c935"}
         aria-label="Loading Spinner"
         data-testid="loader"
       /></div>}> <Contact /></Suspense>} />
