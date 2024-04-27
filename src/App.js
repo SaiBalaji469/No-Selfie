@@ -11,11 +11,6 @@ const Careers = React.lazy(()=> import('./Components/Carrers/Careers'))
 const Safety = React.lazy(()=> import('./Components/Safety/Safety')) ;
 const Contact = React.lazy(()=> import('./Components/Contact/Contact')) ;
 
-// const override: CSSProperties = {
-//   display: "block",
-//   margin: "0 auto",
-//   borderColor: "red",
-// };  
 
 function App() {
 
