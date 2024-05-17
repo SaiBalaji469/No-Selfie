@@ -1,11 +1,12 @@
 import React, { Suspense, useContext } from "react";
 import "./safety.css";
 import DataContext from "../../Context/Context";
+import Footer from "../Footer/Footer";
+import ClipLoader from "react-spinners/ClipLoader";
 const Overview = React.lazy(() => import("./Overview"));
 const Cutomers = React.lazy(() => import("./Cutomers"));
 const Captains = React.lazy(() => import("./Captains"));
-import Footer from "../Footer/Footer";
-import ClipLoader from "react-spinners/ClipLoader";
+
 
 const Safety = () => {
   const navs = ["Overview", "Customers", "Captains"];
