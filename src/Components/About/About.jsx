@@ -17,23 +17,23 @@ const About = () => {
         
         >
           <div className="px-4 mx-auto">
-            <h1>India’s Beloved</h1>
-            <h1>Bike Taxi Service</h1>
+            <h1>India's Beloved</h1>
+            <h1>Photography Service</h1>
             <p className="m-0 p-0" style={{ fontWeight: "600" }}>
-              We are not an option, we are a choice
+              We are not just photographers, we are memory makers
             </p>
             <p className="m-0 p-0">
-              We're #1 choice of 10 Million people because we're the solution of
-              India's intra-city commuting problems. With assured safety, we
-              also provide economically priced rides.
+              We're #1 choice of 10 Million people because we capture life's precious moments
+              with perfection. With professional expertise, we also provide affordable
+              photography services for all occasions.
             </p>
             <p className="m-0 p-0" style={{ fontWeight: "600" }}>
               What makes us different?
             </p>
             <p className="m-0 p-0">
-              Our bike taxis can dodge the traffic during peak hours and get you
-              to the destination in a jiffy! So when you think travel, think
-              Rapido.
+              Our photographers can capture the perfect moment in any situation and deliver
+              memories that last a lifetime! So when you think photography, think
+              CaptureLife.
             </p>
           </div>
         </div>
@@ -45,14 +45,14 @@ const About = () => {
       <div className="row my-3">
         <div className="col-lg-6 text-center  py-3 py-lg-0 ">
           <div className="d-inline-flex flex-column align-items-center align-items-lg-start">
-            <h3 className="mx-auto">Champions of our success story</h3>
+            <h3 className="mx-auto">Masters behind the lens</h3>
             <span className="head-line"></span>
           </div>
           <p className="know-us-text mx-auto text-center text-lg-start ">
-            Rapido has come a long way ever since its inception in 2015. With a
-            lot of hardwork and perseverance we have made a place for ourselves
-            in the market. As a brand and as a service, it is our constant
-            endeavour to redefine ourselves.
+            CaptureLife has come a long way ever since its inception in 2015. With a
+            lot of passion and creativity we have made a place for ourselves
+            in the photography industry. As a brand and as a service, it is our constant
+            endeavour to capture moments beautifully.
           </p>
         </div>
         <div className="col-lg-6 ">
@@ -92,10 +92,10 @@ const About = () => {
       </div>
 
       <div className="rapido-team py-5 ">
-        <h1>Jobs @ Rapido</h1>
+        <h1>Join Our Photography Team</h1>
         <p>
-          Join us in exploring a world of endless opportunities. Let’s find a
-          spot for you.
+          Join us in capturing a world of beautiful moments. Let's find a place for your
+          creative vision.
         </p>
         <button className="work-btn">Work with us</button>
       </div>

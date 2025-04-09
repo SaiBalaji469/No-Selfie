@@ -24,32 +24,32 @@ import emp4 from './emp4.png'
 import emp5 from './emp5.png'
 
 export const customerDesc = [
-    {id : 1, image :cc1, head:"Doorstep Pick-Up",p:"We will pick you up from where you are and drop you exactly where you need to be."},
-    {id : 2, image :cc2, head:"Affordability",p:"No more latent prices and shocked reactions after seeing the final ride cost. We're here with the most affordable rides for all."},
-    {id : 3, image :cc3, head:"Quick Ride",p:"Trend setters of smart commute be it traffic or rush hours."},
+    {id : 1, image :cc1, head:"Professional Photo Sessions",p:"Our expert photographers capture your perfect moments with professional equipment and expertise, ensuring stunning results every time."},
+    {id : 2, image :cc2, head:"Affordable Packages",p:"Professional photography at competitive prices. Choose from our range of packages for different occasions and needs."},
+    {id : 3, image :cc3, head:"Quick Delivery",p:"Get your professionally edited photos within 48 hours. We ensure fast turnaround without compromising on quality."},
 ]
 export const captainDesc = [
-    {id : 1, image :c1, head:"Zero Pressure Rides",p:"Gives a Captain more room in a day without hampering their daily activities. You can decide on when to go on the next ride."},
-    {id : 2, image :c2, head:"Redeemable Earnings",p:"What’s the use of getting paid when you can't withdraw money when you want to?Redeems can be transferred from Rapido wallet to your bank account at your convenience."},
-    {id : 3, image :c3, head:"Insured Rides",p:"All rides are insured. Accidental coverage and medical benefits covered up to Rs 5 Lakh for Captain & family."},
+    {id : 1, image :c1, head:"Flexible Schedule",p:"Choose your own working hours and projects. We give photographers the freedom to work at their convenience."},
+    {id : 2, image :c2, head:"Competitive Earnings",p:"Earn what you deserve. Our photographers receive 70% of the project fee with instant withdrawals."},
+    {id : 3, image :c3, head:"Professional Support",p:"Access to premium photography equipment, editing software, and continuous training to enhance your skills."},
 ]
 
 export const homeFeedback = [
-    {id:1,image:feedhome1,body:"Thanks to Rapido, my first lecture is never missed. My captain arrives in 2-3 mins and zoop we go. ",h5:"Dhiya M",span:"Customer"},
-    {id:2,image:feedhome2,body:"Was running late for my appointment and given it was during a peak hour, I did not have to think twice and simply booked my Rapido & reached just in time.",h5:"Akshay Gaur",span:"Customer"},
-    {id:3,image:feedhome3,body:"It is an amazing app and very safe too to ride with as they have professional and great riders . It is also very feasible and we reach quicker as compared to any other mode of transport",h5:"Sriram",span:"Customer"},
-    {id:4,image:feedhome4,body:"Well, I love rapido cuz it's quicker than other apps and they're mostly available anytime. And I don't know how to ride bikes but the app gives me joy to ride on a bike and I get to enjoy Bangalore's weather.",h5:"Praneet",span:"Customer"},
+    {id:1,image:feedhome1,body:"The wedding photos were absolutely stunning! The NoSelfie photographer captured every special moment perfectly. The quality was exceptional!",h5:"Priya M",span:"Wedding Client"},
+    {id:2,image:feedhome2,body:"I needed professional headshots for my business, and NoSelfie delivered beyond my expectations. The photographer's attention to detail was remarkable.",h5:"Rahul G",span:"Corporate Client"},
+    {id:3,image:feedhome3,body:"Our family photoshoot was a wonderful experience. The NoSelfie photographer made us feel comfortable and the results were beautiful.",h5:"Anita S",span:"Family Client"},
+    {id:4,image:feedhome4,body:"The maternity photoshoot was magical! The NoSelfie photographer captured the perfect moments and created memories we'll cherish forever.",h5:"Neha P",span:"Maternity Client"},
 ]
 
 export const feedCaptains = [
-    {id:1,image:feedCaptain1,body:"My account was credited with the amount and wondered who it was. I did not expect it but Rapido helped me at the right time. I’m glad that support has been extended by Rapido to us. I’ve been working with Rapido for the past 2 and a half years and really obliged for this small deed. Thank You, Rapido!!",h5:"Devender Kumar",span:"Captain"},
-    {id:2,image:feedCaptain2,body:"I am working in Rapido for the last 8 months and I would really like to thank Rapido, I am differently-abled and Rapido has given me a good opportunity to earn more money compared to my previous job. Wonder-full platform to earn money with pride. ",h5:"Murugan",span:"Captain"}
+    {id:1,image:feedCaptain1,body:"Working with NoSelfie has transformed my photography career. The support, equipment, and opportunities they provide are unmatched. I've grown so much as a photographer!",h5:"Amit Kumar",span:"Wedding Photographer"},
+    {id:2,image:feedCaptain2,body:"As a freelance photographer, finding consistent work was challenging. NoSelfie changed that. The platform is professional, payments are timely, and the clients are amazing.",h5:"Sneha R",span:"Portrait Photographer"}
 ]
 
 export const benifits =[
-    {image:work1,body:"We pride ourselves on rewarding great work with great compensation."},
-    {image:work2,body:"Flexible hours and vacation. Night owls welcome."},
-    {image:work3,body:"Meet new cultures and enjoy our crew from all over the world"}
+    {image:work1,body:"We believe in rewarding creativity. Our photographers earn competitive rates and bonuses for exceptional work."},
+    {image:work2,body:"Flexible schedules and creative freedom. Choose your projects and work at your own pace."},
+    {image:work3,body:"Join our diverse community of photographers. Learn, grow, and create together."}
 ]
 
 export const careerCarousal = [
@@ -57,9 +57,9 @@ export const careerCarousal = [
 ]
 
 export const employeesFeedback = [
-    {image:emp1,body:"Rapido is fun place to work with the best people in the respective fields. A positive environment where learning and growth is immense.",h5:"Abhishek Agarwal",span:"Product Analyst"},
-    {image:emp2,body:"Rapido, for me hold's a special place. I was skeptical  before joining. But after I joined, the experience speaks for itself. Hardworking and goal oriented team as well as Manager. Everyday, I learn something new, not only as a employee but as a human being as well. Colleagues and other stakeholders are just a call away. One decision can change your life, truly said, because it does. Thank you team Rapido.",h5:"Pritha Mistry",span:"Cluster Manager"},
-    {image:emp3,body:"Rapido has been Home for me. Pleasant multicultural environment and the enthusiasm which everyone around carries is infectious. Proud to be a part of Rapido.",h5:"Bhavana Rathi",span:"CRM Specialist"},
-    {image:emp4,body:"Being a part of Rapido has been such a delightful journey. It has been more than a year that I have been on the ride of rapid growth along with the company with a lot of opportunities for you to show your skill and improve upon it. All the stakeholders are brilliant and extremely down to earth and the founders are almost always reachable and none of your queries are looked down upon. To sum it up, a great experience and I am glad I ended up here. Cheers!",h5:"Samarth",span:"Graphic Designer"},
-    {image:emp5,body:"Connecting miles and smiles, that is what working at Rapido feels like. A well knitted community of innovators and thinkers, who never fail to leverage an opportunity and turn it in a seamless customer centric product. ",h5:"Pulkit Sharma",span:"Support Engineer"}
+    {image:emp1,body:"Working at NoSelfie has been an incredible journey. The creative environment and support for innovation make it a perfect place for photographers to thrive.",h5:"Arjun M",span:"Senior Photographer"},
+    {image:emp2,body:"The team at NoSelfie is like family. The collaborative environment and focus on quality make every project exciting. I've grown both professionally and creatively.",h5:"Meera K",span:"Studio Manager"},
+    {image:emp3,body:"The creative freedom and resources available at NoSelfie are unmatched. Every day is an opportunity to create something beautiful.",h5:"Vikram R",span:"Photo Editor"},
+    {image:emp4,body:"Being part of NoSelfie has transformed my photography career. The support system and opportunities for growth are exceptional.",h5:"Kavita S",span:"Event Photographer"},
+    {image:emp5,body:"The innovative approach to photography and commitment to quality at NoSelfie is inspiring. It's more than a job; it's a creative journey.",h5:"Rohan P",span:"Product Photographer"}
 ]

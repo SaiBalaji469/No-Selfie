@@ -5,7 +5,7 @@
 .about-design{
     width: 100px;
     height: 100px;
-    background-color: #f9c935;
+    background-color:#00FF00;
     border-radius: 10px;
     position: relative;
     z-index: 1;
@@ -32,7 +32,7 @@
 .rapido-team{
     width: 100%;
     height: 500px;
-    background: #f9c935 url("../../Assets/rapido_group.webp");
+    background: #00FF00 url("../../Assets/rapido_group.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

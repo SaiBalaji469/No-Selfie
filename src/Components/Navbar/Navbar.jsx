@@ -1,7 +1,7 @@
 import React, { useContext,useEffect,useState } from 'react'
 import {Link} from 'react-router-dom'
 import './navbar.css'
-import logo from '../../Assets/logo.svg'
+import logo from '../../Assets/logo.png'
 import DataContext from '../../Context/Context'
 import { AiOutlineMenu } from "react-icons/ai";
 import Offcanvas from "react-bootstrap/Offcanvas";
