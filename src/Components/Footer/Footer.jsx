@@ -21,17 +21,20 @@ const Footer = () => {
     <footer className='footer-container'>
         <div className="footer-wrapper">
            <div className="footer">
-             <h5>Customer App</h5>
+            
+             <h5>Download App</h5>
+             <a href="https://play.google.com/store/apps/details?id=com.noselfiee&pli=1" target='blank'>
            <img src={playstore} alt="playstore" className='footer-img'/>
+           </a>
            <img src={appstore} alt="appstore" className='footer-img'/>
 
            </div>
-           <div className="footer">
+           {/* <div className="footer">
            <h5>Captains App</h5>
            <img src={playstore} alt="playstore" className='footer-img'/>
-           <img src={appstore} alt="appstore" className='footer-img'/>
+           <img src={appstore} alt="appstore" className='footer-img'/> */}
 
-           </div>
+           {/* </div> */}
            <div className="footer">
              <ul className='footer-menu'>
               {nav.map((nav,index)=>(

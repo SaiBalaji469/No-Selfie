@@ -31,7 +31,6 @@ padding: 10px 30px;
 .home-btn:nth-child(1){
 background-color: #1b512d;
 border-radius:30px 30px 30px 0px;
-color: white;
 }
 
 .home-btn:nth-child(2){
@@ -144,13 +143,21 @@ border-radius:30px 30px 0px 30px;
     border-radius: 30px 30px 30px 0px;
     font-weight:600;
     margin: 30px 0px;
-    color: white;
 }
 
 .our-impact-container{
-    background-color: #1b512d;
-    padding: 20px 0px;
+    background-color: #000000;  
+    padding: 40px 0px;
 }
+
+.our-impact-container h2{
+    color: white;
+}
+
+.our-impact-container .head-line{
+    background-color: white;
+}
+
 .impact-text{
     font-size: 16px;
     max-width: 600px;
@@ -159,42 +166,80 @@ border-radius:30px 30px 0px 30px;
     margin: 10px 0px;
     color: white;
 }
+
 .container-2{
     max-width: 600px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
+    gap: 20px;
 }
+
 .box-1{
-    flex-basis: 25%;
+    flex-basis: calc(25% - 20px);
 }
+
 .box{
     width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    height: 200px;
+    border-radius: 20px;
     background-color: white;
     margin: 0px auto;
-    font-size: 10px;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding: 10px 5px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
 }
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 40px;
+    height: 5px;
+    background-color: #1b512d;
+    border-radius: 5px;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #1b512d;
+    border-radius: 50%;
+}
+
 .presence-img{
     width: 45px;
     height: 40px;
-    margin-top: 10px;
-}
-.box bold{
-    font-weight:bold;
-    margin-top: 5px;
-}
-.box p{
-    font-weight: 600;
+    margin-top: 25px;
+    filter: grayscale(100%);
 }
 
+.box bold{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.box p{
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #000000;
+}
 
 @media (max-width: 767px) {
     .home-left h1{

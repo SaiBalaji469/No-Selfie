@@ -33,7 +33,9 @@ const Home = () => {
               clients across 100+ cities.
             </p>
             <div className="d-flex gap-2 gap-md-5 my-4 justify-content-center align-items-center">
-              <button className="home-btn">Book a Photographer</button>
+              <a href="https://play.google.com/store/apps/details?id=com.noselfiee&pli=1" target="_blank" rel="noopener noreferrer">
+                <button className="home-btn">Book a Photographer</button>
+              </a>
               <button className="home-btn">Join as Photographer</button>
             </div>
           </div>

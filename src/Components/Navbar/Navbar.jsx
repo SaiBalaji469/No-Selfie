@@ -40,7 +40,9 @@ useEffect(()=>{
             ))
             }
               </div>
-              <button className='app-download-btn'>Download</button>    
+              <a href="https://play.google.com/store/apps/details?id=com.noselfiee&pli=1" target='blank'>
+              <button  className='app-download-btn'>Download</button>   
+              </a> 
             </div>
 
             <div className="menu-icons d-md-none">
