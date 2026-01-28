@@ -26,7 +26,7 @@ const Home = () => {
       <div className="row home-row" >
         <div className="col-lg-5 home-left text-center text-lg-start" >
           <div className="px-4">
-            <h1>NoSelfie - Professional Photography Service</h1>
+            <h1>NoSelfie - Professional Photography Service By Ram</h1>
             <p>
               NoSelfie is India's premier photography service where professional photographers
               capture your perfect moments. With over 25 Million+ photos captured, we're serving
